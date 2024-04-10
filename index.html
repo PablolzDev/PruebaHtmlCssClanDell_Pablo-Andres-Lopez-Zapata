@@ -1,0 +1,275 @@
+<!--
+Nombre Completo: Pablo Andres Lopez Zapata 
+Clan: Clan Dell
+fecha: 09/04/2024  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "Description" content="En RIWI, un centro de entrenamiento para coders, muchos participantes provienen de diferentes partes de la ciudad y necesitan transportarse a las instalaciones. Aunque hay una variedad de medios de transporte disponibles, algunos coders tienen motocicletas o vehículos personales que podrían compartir con otros para reducir costos y promover la sostenibilidad">
+    <meta name = "Keywords" content=" RIWI , centro de entrenamiento, coders, motocicletas, transporte, vehiculos>
+    <meta name="sitedomain" content="https://TransRiwi.com">
+    <meta name="organization" content="RIWI_DELL">
+    <meta name="author" content="RIWI_DELL">
+    <meta name="designer" content="Pablo Andrés López Zapata">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="15days">
+    <link rel="shortcut icon" href="./public/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./src/css/Variables&Imports.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/imagenes.css">
+    <title>TransRiwi</title>
+</head>
+
+<body>
+
+    <!-- Cabeza Del Proyecto -->
+    <header id="head">
+        <!-- Iconos con su titulo -->
+        <article class="icon">
+            <img src="./public/icons/menor.webp" alt="menor" class="icon-header">
+            <h1>
+                <i><span class="span-icon">T</span>rans<span class="span-icon">R</span>iwi</i>
+            </h1>
+            <img src="./public/icons/mayor.webp" alt="mayor" class="icon-header">
+        </article>
+   
+        <!-- 
+        Barra de navegacion con botones dentro -->
+        <nav class="nav-bar">
+            <i class="bi bi-card-checklist"></i><a href="#requisitos">Requisitos</a>
+            <a href=""></a>
+            <i class="bi bi-geo-fill"></i> <a href="#about">Acerca De Nosotros</a>
+
+             <i class="bi bi-envelope-fill"></i><a href="mailto:formacion@riwi.io">Contactanos</a>
+
+             <i class="bi bi-telephone-fill"></i>
+            <a href="tel:+301.732.53.27"> Llamanos</a>
+
+            <a href="" class="btn-enviar">
+                <p>Iniciar Sesion</p>
+            </a>
+
+            <a href="#registrate" class="btn-enviar">
+                <p>Registrate</p>
+            </a>
+
+        </nav>
+    </header>
+
+    <!-- Comienzo del Cuerpo -->
+    <main>
+<!-- 
+        Primer seccion de Titulo y su formulario -->
+        <section class="first-section">
+            <form id="ubicación" class="ubicación" action="./index.html" enctype="multipart/form-data" method="get">
+                <div class="formularioa">
+                     <i> <h2>Transportate desde cualquier
+                        lugar hacia tu centro de entrenamiento</h2></i>
+                    <div class="campo">
+                        <input type="text" placeholder="Ingresa tu ubicación" name="nombre" id="nombre" class="input-texta" required>
+
+                    </div>
+                    
+                    <div class="campo">
+                        <input list="sedes" id="sedes" name="sedes"  class="input-texta" placeholder="Selecciona tu centro de formacion"/>
+
+                        <datalist id="ice-cream-flavors">
+                          <option value="Medellín"></option>
+                          <option value="Cali"></option>
+                          <option value="bucaramanga"></option>
+                          <option value="barranquilla"></option>
+                        </datalist>
+                    </div>
+                    
+                </div>
+                <a href="" class="btn">
+                        <i class="bi bi-send-fill"></i> Solicitar vehiculo
+                    </a>
+            </form>
+
+          <figure>
+            <img class="img" src="./public/img/cuatro_pasajeros.webp" alt="">
+          </figure>
+        </section>
+
+        <!-- Segunda seccion -->
+
+        <section  class="second-section">
+
+            <figure>
+                <img class="img" src="./public/img/conductora.webp" alt="">
+            </figure>
+
+            <Article>
+                <i><h2>Registrate cuando quieras y genera las ganancias que necesites</h2></i>
+                <p>¡Únete hoy y abre las puertas a tus oportunidades financieras!
+                </p>
+            </Article>
+        </section>
+
+        <!-- Tercera seccion con tabla e imagen -->
+        <section class="third-section">
+           
+            <table border="0" class="table">
+                <!-- cabecera de la tabla -->
+                <thead >
+                    <tr >
+                        <th colspan="3">
+                            <i><h2>Viaja con amigos</h2></i>
+                            <p>¡Viaja con amigos y crea recuerdos inolvidables!</p>
+                            <p>observa la lista de vehiculos disponiblesen cada una de nuestras sedes</p>
+                        </th>
+                        
+                    </tr>
+                    <br>
+                    <tr>
+                        <td> <i class="bi bi-buildings-fill"></i> Sede</td>
+                        <td> <i class="bi bi-car-front-fill"></i>Vehiculos</td>
+                        <td> <i class="bi bi-bicycle"></i>Motos</td>
+                    </tr>
+                    <tr>
+                        
+                    </tr>
+                </thead>
+                <!-- cuerpo de la tabla -->
+                <tbody>
+                    <tr>
+                        <td>Riwi medellín</td>
+                        <td>15</td>
+                        <td>40</td>
+                    </tr>
+
+                    <tr>
+                        <td>Riwi Bucaramanga</td>
+                        <td>10</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Riwi Barranquilla</td>
+                        <td>20</td>
+                        <td>180</td>
+                    </tr>
+                    <tr>
+                        <td>Riwi Cali</td>
+                        <td>8</td>
+                        <td>200</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <figure>
+                <img  class="img-2" src="./public/img/motociclistas.webp" alt="">
+            </figure>
+        </section>
+
+        <!-- cuarta seccion con requisitos -->
+        <section id="requisitos" class="cuarta-requisitos">
+            <h2>¿Que necesito para ser conductor riwi?</h2>
+            
+            <figure>
+                <img class="img-4" src="./public/img/conductores.webp" alt="">
+            </figure>
+
+            <article class="sub-requisitos">
+                <div class="content-required">
+                    <i class="bi bi-star-fill"></i>
+                    <h3>Requisitos</h3>
+                    <p>Ser mayor de 18 años v</p>
+                    <p>Verificacion de antecedentes</p>
+                    <p>Ser coder de riwi</p>
+                </div>
+
+                <div>
+                    <i class="bi bi-file-earmark-text-fill"></i>
+                    <h3>Documentos</h3>
+                    <p>Licencia de conduccion vigente</p>
+                    <p>SOAT vigente</p>
+                    <p>Tarjeta de propiedad del vehiculo actual</p>
+                </div>
+
+                <div>
+                    <i class="bi bi-calendar-fill"></i>
+                    <h3>Empezar es muy fácil</h3>
+                    <p>Registrate</p>
+                    <p> Sube tus documentos</p>
+                    <p>Sal a manejar</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- Quinta seccion de formulario de contacto -->
+        <section id="registrate">
+            <form id="contact" class="contacto" action="./index.html" enctype="multipart/form-data" method="get"> 
+                <h2>Registrate cuando quieras</h2>
+                <div class="formulario">
+                    <div>
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required class="input-text">
+                    </div>
+                    <div>
+                        <input type="email" name="mail" id="mail" class="input-text" placeholder="Ingresa tu correo" required>
+                    </div>
+                    <div>
+                        <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono" required class="input-text">
+                    </div>
+                    <div >
+                        <input list="sedes" id="sedes" name="sedes"  class="input-text" placeholder="Selecciona tu centro de formacion" />
+
+                        <datalist id="ice-cream-flavors">
+                          <option value="Medellín"></option>
+                          <option value="Cali"></option>
+                          <option value="bucaramanga"></option>
+                          <option value="barranquilla"></option>
+                        </datalist>
+                    </div>
+                    <div>
+                        <textarea name="comentarios" id="" cols="30" rows="10" class="txtArea"></textarea>
+                    </div>
+                    <a href="" class="btn">
+                        Registrate
+                    </a>
+                </div>
+            </form>
+        </section>
+
+        <!-- La ultima seccion : About us -->
+        <section id="about" class="last-section">
+            <i><h2>Acerca de Nosotros</h2></i>
+            <article class="mini-s1">
+                    <div>
+                    <h3>¿Quienes Somos?</h3>
+                    <iframe width="560" height="215" src="https://www.youtube.com/embed/7CFyOSd-m3o?si=KeaPqJNH6urTxMYF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                </div>
+                <div>
+                    <h3>¿Donde estamos ubicados?</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3378179448473!2d-75.5861898253916!3d6.2191063266265765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44293f0e114eef%3A0x99610cdd44c7c081!2sRiwi%20-%20Be%20a%20Coder!5e0!3m2!1ses-419!2sco!4v1712684022612!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+        </section>
+<!-- 
+        Boton de whatsapp -->
+        <section class="boton-w">
+            <a href="http://wa.me/573017325327/?text = Bienvenido a riwi" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        </section>
+    </main>
+
+<!-- 
+    Fin del cuerpo del proyecto -->
+    <footer class="pie">
+        <div class="icons">
+            <a href="https://www.facebook.com/p/Riwi-100092420949391/?locale=es_LA" target="_blank"> <i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/riwi.io/?hl=es" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://co.linkedin.com/company/riwi-io" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/InfoRiwi4424" target="_blank"><i class="bi bi-twitter-x"></i></a>
+        </div>
+
+       <p>&copy; 2024 <span>Riwi.io</span>Todos los derechos reservados</p>
+    </footer>
+    
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+/* 
+Nombre Completo: Pablo Andres Lopez Zapata 
+Clan: Clan Dell
+fecha: 09/04/2024 */
+
+.icon-header{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+.img{
+    width: 450px;
+    border-radius: 20px;
+}
+
+.img-2{
+
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.img-4{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.video{
+    width: 400px;
+    height: 300px;
+}
